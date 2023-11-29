@@ -10,6 +10,7 @@ import {FormsModule, ReactiveFormsModule, FormGroup} from '@angular/forms';
 import { NavBarComponent } from './shared/components/nav-bar/nav-bar.component';
 import { CourceComponent } from './cource/cource.component';
 import { CourseViewComponent } from './cource/course-view/course-view.component';
+import { CourseAddComponent } from './cource/course-add/course-add.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CourseViewComponent } from './cource/course-view/course-view.component'
     StudentViewComponent,
     NavBarComponent,
     CourceComponent,
-    CourseViewComponent
+    CourseViewComponent,
+    CourseAddComponent
   ],
   imports: [
     BrowserModule,

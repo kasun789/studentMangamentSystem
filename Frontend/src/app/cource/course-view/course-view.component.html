@@ -1,4 +1,4 @@
-<div class="cource-info-view">
+<div class="cource-info-view" *ngIf="courseFormData">
     <table>
         <tr>
             <th>Course Name</th>
@@ -6,10 +6,10 @@
             <th>Credit</th>
             <th>Action</th>
         </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+        <tr *ngFor="let val of courseFormData">
+            <td>{{val?.name}}</td>
+            <td>{{val?.duration}}</td>
+            <td>{{val?.credit}}</td>
             <td><button class="delete">Delete</button></td>
         </tr>
     </table>

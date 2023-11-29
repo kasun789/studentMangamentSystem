@@ -1,0 +1,12 @@
+<div class="course-add-view">
+    <form [formGroup]="courseAddForm" (ngSubmit)="onSubmit()">
+        <label for="">Course Name :</label>
+        <input type="text" class="course-name" formControlName="courseName">
+        <label for="">Duration :</label>
+        <input type="text" class="duration-course" formControlName="duration">
+        <label for="">Credit :</label>
+        <input type="text" class="credit-grade" formControlName="credit">
+        <button class="course-submit-btn" type="submit">Submit</button>
+    </form>
+    
+</div>
