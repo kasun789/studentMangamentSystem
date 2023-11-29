@@ -1,0 +1,16 @@
+<div class="student-info-view">
+    <table *ngIf="studentData">
+        <tr>
+            <th>Student Name</th>
+            <th>Course</th>
+            <th>Grade</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let student of studentData" class="row">
+            <td>{{student?.name}}</td>
+            <td>{{student?.course}}</td>
+            <td>{{student?.grade}}</td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+    </table>
+</div>

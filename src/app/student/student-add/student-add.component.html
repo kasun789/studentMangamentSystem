@@ -1,0 +1,13 @@
+<div class="student-add-view">
+    <form [formGroup]="studentAddForm" (ngSubmit)="onSubmit()">
+        <label for="">Student Name :</label>
+        <input type="text" class="student-name" formControlName="studentName">
+        <label for="">Course :</label>
+        <input type="text" class="student-course" formControlName="course">
+        <label for="">Grade :</label>
+        <input type="text" class="student-grade" formControlName="grade">
+        <button class="student-submit-btn" type="submit">Submit</button>
+    </form>
+    
+</div>
+

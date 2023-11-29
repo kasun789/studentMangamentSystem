@@ -1,0 +1,30 @@
+.cource-info-view{
+    position: absolute;
+    left: 220px;
+    top: -17px;
+}
+table{
+    margin-top: 20px;
+}
+
+table tr th{
+    padding: 20px;
+    padding-right: 245px;
+    background: rgb(127, 127, 250);
+    color: white;
+}
+
+.row{
+    border-bottom: 1px solid black; 
+}
+
+table tr td{
+    padding-top: 5px;
+}
+
+button{
+    background: red;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
